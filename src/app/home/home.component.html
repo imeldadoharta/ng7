@@ -1,0 +1,53 @@
+<p>
+  Selamat datang di home works!
+  Imelda Doharta Aritonang
+</p>
+<!-- <h1 [ngClass]="{
+  'gray': h1Style,
+  'large': !h1Style
+}">Try click</h1> -->
+<mat-toolbar  color="primary">
+  <mat-toolbar-row>
+  <span>JS-jargon</span>
+  </mat-toolbar-row>
+  </mat-toolbar>
+  <main>
+  <mat-card >
+  <mat-card-header>
+  <mat-card-title>imelda</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+   Good
+  </mat-card-content>
+  <mat-card-actions>
+  <a  mat-raised-button  href="/About"  color="primary">More</a>
+  </mat-card-actions>
+  </mat-card>
+  <mat-card >
+    <mat-card-header>
+    <mat-card-title>Doharta</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+     Ok
+    </mat-card-content>
+    <mat-card-actions>
+    <a  mat-raised-button  href="/About"  color="primary">More</a>
+    </mat-card-actions>
+    </mat-card>
+    <mat-card >
+      <mat-card-header>
+      <mat-card-title>Aritonang</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+       Excelence
+      </mat-card-content>
+      <mat-card-actions>
+      <a  mat-raised-button  href="/About"  color="primary">More</a>
+      </mat-card-actions>
+      </mat-card>
+  </main>
+<h1 [ngStyle]="{
+  'color': h1Style ? 'gray' : 'black',
+  'font-size': !h1Style ? '1em' : '4em'
+}">Try Click</h1>
+<button (click)="firstClick()">Click me</button>
